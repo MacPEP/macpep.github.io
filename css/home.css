@@ -120,7 +120,7 @@ html, body {
     font-family: rkt;
     font-size: 38px;
     font-weight: normal;
-    font-style: bold;
+    font-style: normal;
     text-align: left;
     margin-top:28px;
     text-align: center;
@@ -130,7 +130,7 @@ html, body {
     font-family: rkt;
     font-size: 24px;
     font-weight: normal;
-    font-style: bold;
+    font-style: normal;
     text-align: left;
     margin-top:12px;
     text-align: left;
@@ -139,7 +139,7 @@ html, body {
 }
 
 .content {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: rkt;
     font-size: 16px;
     font-stretch: normal;
     font-style: normal;
@@ -149,7 +149,7 @@ html, body {
 }
 
 .download-link {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: rkt;
     font-size: 16px;
     width: 250px;
     margin: 0 auto;
