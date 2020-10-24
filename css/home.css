@@ -12,10 +12,9 @@ html, body {
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
-    text-align: left;
     margin: 0 auto;
     margin-top:64px;
-    width: 50%;
+    width: 700px;
 }
 
 #menu {
@@ -167,4 +166,33 @@ html, body {
     color: black;
     margin: 3px;
     padding: 6px;
+}
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+    .under_construction {  
+        width: 90%; 
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .page-content {
+        width: 90%;
+    }
+
+    .subhead {
+        width: 90%;
+    }
 }
