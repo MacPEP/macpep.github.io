@@ -148,6 +148,17 @@ html, body {
     line-height: 21px;
 }
 
+.about_content {
+    font-family: rkt;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 21px;
+    padding-top: 38px;
+}
+
 .download-link {
     font-family: rkt;
     font-size: 16px;
@@ -182,6 +193,10 @@ html, body {
 @media screen and (min-width : 0px) and (max-width : 767px){
     .under_construction {  
         width: 90%; 
+    }
+
+    .about_content {
+        width: 90%;
     }
 
     .content {
