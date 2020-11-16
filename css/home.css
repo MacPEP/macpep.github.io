@@ -179,6 +179,68 @@ html, body {
     padding: 6px;
 }
 
+.news-item {
+    margin-bottom: 48px;
+}
+
+.news-item p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.news-item-title {
+    font-size: 20px;
+}
+
+.news-item a {
+   color: #497bad;
+   text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.news-content {
+    padding-top: 64px;
+}
+
+.news-title {
+    font-family: rkt;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    margin-top:12px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.news-subtitle {
+    font-family: rkt;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    margin-top: 12px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.news-content a{
+    text-decoration: none;
+    color: #497bad;
+}
+
+.news-content a:hover {
+    text-decoration: underline;
+}
+
+
 /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
 @media screen and (min-width: 1024px){
 
