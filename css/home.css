@@ -11,6 +11,7 @@ body {
 .under_construction {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+    line-height: 1.5555555556;
     margin: 0 auto;
     margin-top: 64px;
     width: 700px;
@@ -143,6 +144,7 @@ body {
 .content {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+    line-height: 1.5555555556;
     font-weight: normal;
     font-style: normal;
     width: 600px;
@@ -153,6 +155,7 @@ body {
 .about_content {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+    line-height: 1.5555555556;
     font-weight: normal;
     font-style: normal;
     width: 600px;
