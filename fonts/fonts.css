@@ -1,20 +1,63 @@
 @font-face {
-  font-family: 'Limelight-R';
-  font-style: normal;
-  font-weight: 400;
-  src: url('Limelight-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-family: 'Limelight-R';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Limelight-Regular.ttf') format('truetype');
+    /* Safari, Android, iOS */
 }
 
 @font-face {
-  font-family: 'rkt';
-  src: url("rkt_bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'rkt';
+    src: url("rkt_bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'rkt';
-  src: url("rkt_regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'rkt';
+    src: url("rkt_regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
 }
