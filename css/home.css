@@ -2,10 +2,47 @@ html,
 body {
     margin: 0;
     padding: 0;
+    color: #fff;
+    background-color: #2A1F29;
 }
 
 .red-color {
     color: red !important;
+}
+
+p {
+    color: #fff !important;
+}
+
+a {
+    text-decoration: none;
+    color: #FF4D80
+}
+
+a:visited {
+    color: #ffb3c9
+}
+
+a:hover {
+    color: #e60042
+}
+
+a:focus {
+    outline: thin dotted;
+    color: #e60042
+}
+
+a:hover,
+a:active {
+    outline: 0
+}
+
+a {
+    border-bottom: 1px dotted #fff
+}
+
+a:hover {
+    border-bottom-style: solid
 }
 
 .under_construction {
@@ -56,6 +93,7 @@ body {
 #menu ul a {
     color: white;
     text-decoration: none;
+    border-bottom-style: none;
     display: inline-block;
     vertical-align: middle;
     font-family: rkt;
@@ -74,8 +112,10 @@ body {
     margin: 0;
     padding: 32px 0;
     width: 100%;
+    /*
     background-color: white;
     background-image: linear-gradient(rgba(44, 52, 80, 0.5), rgba(44, 62, 80, 0.5));
+    */
     height: auto;
 }
 
@@ -96,8 +136,10 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 0;
+    /*
     background-color: white;
     background-image: linear-gradient(rgba(44, 52, 80, 0.5), rgba(44, 62, 80, 0.5));
+    */
     height: auto;
     position: relative;
     text-align: center;
@@ -125,7 +167,7 @@ body {
     text-align: left;
     margin-top: 28px;
     text-align: center;
-    color: #000;
+    color: #fff;
 }
 
 .subhead {
@@ -138,7 +180,7 @@ body {
     text-align: left;
     width: 600px;
     margin: 0 auto;
-    color: #000;
+    color: #fff;
 }
 
 .content {
@@ -200,15 +242,6 @@ body {
 
 .news-item-date-author {
     font-size: 16px !important;
-}
-
-.news-item a {
-    color: #497bad;
-    text-decoration: none;
-}
-
-.news-item a:hover {
-    text-decoration: underline;
 }
 
 .news-content {
