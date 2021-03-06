@@ -9,10 +9,8 @@ body {
 }
 
 .under_construction {
-    font-family: rkt;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
     margin: 0 auto;
     margin-top: 64px;
     width: 700px;
