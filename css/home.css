@@ -197,6 +197,10 @@ body {
     font-size: 20px;
 }
 
+.news-item-date-author {
+    font-size: 16px !important;
+}
+
 .news-item a {
     color: #497bad;
     text-decoration: none;
