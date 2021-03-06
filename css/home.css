@@ -144,12 +144,11 @@ body {
 
 .content {
     font-family: rkt;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     width: 600px;
     margin: 0 auto;
-    line-height: 21px;
     color: #000;
 }
 
