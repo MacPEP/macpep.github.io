@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-.red-color{
+.red-color {
     color: red !important;
 }
 
@@ -13,7 +14,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     margin: 0 auto;
-    margin-top:64px;
+    margin-top: 64px;
     width: 700px;
     color: #000;
 }
@@ -34,7 +35,7 @@ html, body {
 }
 
 #logo-icon {
-    margin:0;
+    margin: 0;
     margin-top: -4px;
     margin-right: -4px;
     padding: 0;
@@ -75,7 +76,7 @@ html, body {
     padding: 32px 0;
     width: 100%;
     background-color: white;
-    background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5));
+    background-image: linear-gradient(rgba(44, 52, 80, 0.5), rgba(44, 62, 80, 0.5));
     height: auto;
 }
 
@@ -97,7 +98,7 @@ html, body {
     margin: 0 auto;
     padding: 0;
     background-color: white;
-    background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5));
+    background-image: linear-gradient(rgba(44, 52, 80, 0.5), rgba(44, 62, 80, 0.5));
     height: auto;
     position: relative;
     text-align: center;
@@ -110,7 +111,7 @@ html, body {
     vertical-align: middle;
 }
 
-.logo-small{
+.logo-small {
     font-family: "Limelight-R";
     font-size: 48px;
     color: white;
@@ -123,7 +124,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     text-align: left;
-    margin-top:28px;
+    margin-top: 28px;
     text-align: center;
     color: #000;
 }
@@ -134,7 +135,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     text-align: left;
-    margin-top:12px;
+    margin-top: 12px;
     text-align: left;
     width: 600px;
     margin: 0 auto;
@@ -154,12 +155,11 @@ html, body {
 
 .about_content {
     font-family: rkt;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     width: 600px;
     margin: 0 auto;
-    line-height: 21px;
     padding-top: 38px;
     color: #000;
 }
@@ -188,7 +188,7 @@ html, body {
     margin-bottom: 48px;
 }
 
-.news-item p{
+.news-item p {
     padding: 0;
     margin: 0;
     margin-bottom: 6px;
@@ -199,8 +199,8 @@ html, body {
 }
 
 .news-item a {
-   color: #497bad;
-   text-decoration: none;
+    color: #497bad;
+    text-decoration: none;
 }
 
 .news-item a:hover {
@@ -217,7 +217,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     text-align: left;
-    margin-top:12px;
+    margin-top: 12px;
     text-align: center;
     width: 600px;
     margin: 0 auto;
@@ -237,7 +237,7 @@ html, body {
     margin-top: 6px;
 }
 
-.news-content a{
+.news-content a {
     text-decoration: none;
     color: #497bad;
 }
@@ -246,35 +246,29 @@ html, body {
     text-decoration: underline;
 }
 
-
 /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
-@media screen and (min-width: 1024px){
 
-}
+@media screen and (min-width: 1024px) {}
 
 /*###Tablet(medium)###*/
-@media screen and (min-width : 768px) and (max-width : 1023px){
 
-}
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
 
 /*### Smartphones (portrait and landscape)(small)### */
-@media screen and (min-width : 0px) and (max-width : 767px){
-    .under_construction {  
-        width: 90%; 
-    }
 
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .under_construction {
+        width: 90%;
+    }
     .about_content {
         width: 90%;
     }
-
     .content {
         width: 90%;
     }
-
     .page-content {
         width: 90%;
     }
-
     .subhead {
         width: 90%;
     }
