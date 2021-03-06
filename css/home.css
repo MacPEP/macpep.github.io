@@ -58,14 +58,15 @@ a:hover {
 #menu {
     margin: 0;
     padding: 0;
-    background-color: #0e2426;
+    /*background-color: #0e2426;*/
+    background-color: #4F434D;
     text-align: center;
 }
 
 #menu ul {
     margin: 0;
     padding: 8px 0;
-    background-color: #0e2426;
+    background-color: #4F434D;
     text-align: center;
     height: auto;
 }
