@@ -295,15 +295,6 @@ a:hover {
     margin-top: 6px;
 }
 
-.news-content a {
-    text-decoration: none;
-    color: #497bad;
-}
-
-.news-content a:hover {
-    text-decoration: underline;
-}
-
 /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
 
 @media screen and (min-width: 1024px) {}
