@@ -103,6 +103,22 @@ a:hover {
     margin-right: 8px;
 }
 
+.get-in-touch {
+    margin: 0;
+    font-size: 80px;
+    text-align: center;
+}
+
+.get-in-touch a {
+    border: 0;
+    margin-left: 46px;
+}
+
+.get-in-touch i {
+    font-size: 80px;
+    line-height: 80px;
+}
+
 .big-link {
     font-family: rkt;
     font-size: 16px;
