@@ -73,6 +73,36 @@ a:hover {
     color: #000;
 }
 
+.section-footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1.5555555556;
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 700px;
+    color: #000;
+}
+
+.section-footer p {
+    margin:0; 
+    text-align: center; 
+    font-size:14px;
+}
+
+.section-footer a {
+    border: 0;    
+}
+
+.section-footer .icons {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.section-footer i {
+    font-size:30px;
+    margin-right: 8px;
+}
+
 .big-link {
     font-family: rkt;
     font-size: 16px;
