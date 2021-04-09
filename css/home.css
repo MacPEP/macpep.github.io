@@ -88,13 +88,13 @@ a:hover {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    color: red;
+    color: black;
     margin: 3px;
     padding: 6px;
 }
 
 .big-link:visited {
-    color: red;
+    color: black;
 }
 
 .big-link:hover {
