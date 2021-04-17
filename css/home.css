@@ -11,6 +11,10 @@ body {
     color: red !important;
 }
 
+img {
+    width: 90%;
+}
+
 h1 {
     text-align: center;
     font-family: rkt;
@@ -398,19 +402,45 @@ a:hover {
 /*### Smartphones (portrait and landscape)(small)### */
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
-    .under_construction {
-        width: 90%;
-    }
     .about_content {
         width: 90%;
+        margin: 0 auto;
     }
+
+    .news-title {
+        width: 90%;
+    }
+
+    .news-subtitle {
+        width: 90%;
+    }
+
     .content {
         width: 90%;
     }
+
     .page-content {
+        margin: 0 auto;
         width: 90%;
     }
+
     .subhead {
+        width: 90%;
+    }
+
+    .section-footer {
+        width: 90%;
+    }
+
+    .app-description {
+        width: 90%;
+    }
+
+    .section {
+        width: 90%;
+    }
+
+    img {
         width: 90%;
     }
 }
