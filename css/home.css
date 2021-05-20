@@ -391,6 +391,19 @@ a:hover {
     margin-top: 6px;
 }
 
+.patreon-logo {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.patreon-logo a {
+    border: 0;
+    margin-left: 46px;
+    text-decoration: none;
+}
+
 /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
 
 @media screen and (min-width: 1024px) {}
