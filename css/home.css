@@ -391,6 +391,18 @@ a:hover {
     margin-top: 6px;
 }
 
+.news-section-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    margin-top: 12px;
+    text-align: left;
+    margin: 0 auto;
+    color: #FF4D80;
+}
+
 .patreon-logo {
     margin-top: 36px;
     margin-bottom: 36px;
